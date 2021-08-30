@@ -1,5 +1,5 @@
 {% set name = "torch-scatter" %}
-{% set version = "2.0.7" %}
+{% set version = "2.0.8" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/torch_scatter-{{ version }}.tar.gz
-  sha256: 369184948c838f756eea10464a3fbf8e103e22dc94d7045dbab85b5748bf85f9
+  sha256: d71aab489b5288a6c96e9f9a7c9e13c54774dcb55a99a40e6cd1aca8be9ef3e6
 
 build:
   number: 0
