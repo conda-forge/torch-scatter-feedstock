@@ -11,7 +11,7 @@ source:
   sha256: 369184948c838f756eea10464a3fbf8e103e22dc94d7045dbab85b5748bf85f9
 
 build:
-  number: 0
+  number: 1
   rpaths:
     - lib/
     - {{ SP_DIR }}/torch/lib
