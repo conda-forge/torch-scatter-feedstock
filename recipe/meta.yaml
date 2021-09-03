@@ -17,8 +17,8 @@ build:
     - {{ SP_DIR }}/torch/lib
   missing_dso_whitelist:
     - '*/libcuda.*'  # [linux64 or ppc64le]
-  script: build-torch.sh   # [not win]
-  script: build-torch.bat  # [win]
+  script: build.sh   # [not win]
+  script: bld.bat  # [win]
   skip: true  # [win]
 
 requirements:
