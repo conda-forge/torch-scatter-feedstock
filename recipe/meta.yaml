@@ -44,7 +44,7 @@ requirements:
     - pyparsing
   run:
     - python
-    - pytorch >=1.7
+    - {{ pin_compatible('pytorch', max_pin='x.x.x') }}
 
 test:
   imports:
