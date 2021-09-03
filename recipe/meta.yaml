@@ -18,11 +18,13 @@ build:
   missing_dso_whitelist:
     - '*/libcuda.*'  # [linux64 or ppc64le]
   script: {{ PYTHON }} -m pip install . -vv
+  skip: true  # [win]
 
 requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - {{ compiler('cuda') }}  # [cuda_compiler_version != "None"]
     - pytorch >=1.7
   host:
     - {{ compiler('c') }}
@@ -31,6 +33,8 @@ requirements:
     - pytest-runner
     - python
     - pytorch
+    - pytorch-gpu  # [cuda_compiler_version != "None"]
+    - pytorch-cpu  # [cuda_compiler_version == "None"]
     - numpy
     - tqdm
     - scipy
@@ -45,6 +49,10 @@ requirements:
   run:
     - python
     - pytorch
+    - pytorch-gpu  # [cuda_compiler_version != "None"]
+    - pytorch-cpu  # [cuda_compiler_version == "None"]
+    - {{ pin_compatible('cudnn') }}  # [cuda_compiler_version != "None"]
+    - {{ pin_compatible('numpy') }}
 
 test:
   imports:
