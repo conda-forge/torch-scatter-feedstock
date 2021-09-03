@@ -30,7 +30,7 @@ requirements:
     - pip
     - pytest-runner
     - python
-    - pytorch >=1.7
+    - pytorch
     - numpy
     - tqdm
     - scipy
