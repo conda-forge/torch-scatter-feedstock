@@ -11,19 +11,20 @@ source:
   sha256: d71aab489b5288a6c96e9f9a7c9e13c54774dcb55a99a40e6cd1aca8be9ef3e6
 
 build:
-  number: 0
-  skip: true  # [win or (linux and cuda_compiler_version in (undefined, 'None', '10.2'))]
+  number: 1
   rpaths:
     - lib/
     - {{ SP_DIR }}/torch/lib
   missing_dso_whitelist:
     - '*/libcuda.*'  # [linux64 or ppc64le]
-  script: {{ PYTHON }} -m pip install . -vv
+  skip: true  # [win]
+  skip: true  # [cuda_compiler_version == "10.2"]
 
 requirements:
   build:
     - {{ compiler('c') }}
     - {{ compiler('cxx') }}
+    - {{ compiler('cuda') }}  # [cuda_compiler_version != "None"]
     - pytorch >=1.7
   host:
     - {{ compiler('c') }}
@@ -31,10 +32,27 @@ requirements:
     - pip
     - pytest-runner
     - python
-    - pytorch >=1.7
+    - pytorch
+    - pytorch-gpu  # [cuda_compiler_version != "None"]
+    - pytorch-cpu  # [cuda_compiler_version == "None"]
+    - numpy
+    - tqdm
+    - scipy
+    - networkx
+    - scikit-learn
+    - requests
+    - pandas
+    - rdflib
+    - googledrivedownloader
+    - jinja2
+    - pyparsing
   run:
     - python
-    - pytorch >=1.7
+    - pytorch
+    - pytorch-gpu  # [cuda_compiler_version != "None"]
+    - pytorch-cpu  # [cuda_compiler_version == "None"]
+    - {{ pin_compatible('cudnn') }}  # [cuda_compiler_version != "None"]
+    - {{ pin_compatible('numpy') }}
 
 test:
   imports:
