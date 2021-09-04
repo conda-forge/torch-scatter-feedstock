@@ -18,6 +18,7 @@ build:
   missing_dso_whitelist:
     - '*/libcuda.*'  # [linux64 or ppc64le]
   skip: true  # [win]
+  skip: true  # [cuda_compiler_version == "10.2"]
 
 requirements:
   build:
