@@ -26,8 +26,8 @@ requirements:
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}  # [cuda_compiler_version != "None"]
   host:
-    - {{ compiler('c') }}
-    - {{ compiler('cxx') }}
+    - cudnn                           # [cuda_compiler_version != "None"]
+    - nccl                            # [cuda_compiler_version != "None"]
     - pip
     - pytest-runner
     - python

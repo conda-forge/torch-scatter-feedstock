@@ -5,9 +5,3 @@ pytorch:
   # TODO: rebuild for pytorch 1.10.0
   # when it comes out in late October
   # - 1.10.0
-# Ensure this matches the the version
-# that pytorch was compiled with
-c_compiler_version:    # [linux64]
-  - 7                  # [linux64]
-cxx_compiler_version:  # [linux64]
-  - 7                  # [linux64]
