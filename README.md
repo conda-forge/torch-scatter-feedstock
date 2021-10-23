@@ -27,255 +27,255 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.7.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_version11.0numpy1.18python3.7.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.7.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0numpy1.18python3.7.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_version11.0numpy1.18python3.7.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0numpy1.18python3.7.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.7.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_version11.0numpy1.18python3.7.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.7.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0numpy1.18python3.7.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.8.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_version11.0numpy1.18python3.8.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.8.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0numpy1.18python3.8.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_version11.0numpy1.18python3.8.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0numpy1.18python3.8.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.8.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_version11.0numpy1.18python3.8.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.8.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0numpy1.18python3.8.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cudnn8numpy1.19python3.9.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_version11.0numpy1.19python3.9.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0cudnn8numpy1.19python3.9.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0numpy1.19python3.9.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_version11.0numpy1.19python3.9.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0numpy1.19python3.9.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.0cudnn8numpy1.19python3.9.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_version11.0numpy1.19python3.9.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0cudnn8numpy1.19python3.9.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.0numpy1.19python3.9.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.7.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_version11.1numpy1.18python3.7.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.7.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1numpy1.18python3.7.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_version11.1numpy1.18python3.7.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1numpy1.18python3.7.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.7.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_version11.1numpy1.18python3.7.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.7.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1numpy1.18python3.7.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.8.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_version11.1numpy1.18python3.8.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.8.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1numpy1.18python3.8.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_version11.1numpy1.18python3.8.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1numpy1.18python3.8.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.8.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_version11.1numpy1.18python3.8.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.8.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1numpy1.18python3.8.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cudnn8numpy1.19python3.9.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_version11.1numpy1.19python3.9.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1cudnn8numpy1.19python3.9.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1numpy1.19python3.9.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_version11.1numpy1.19python3.9.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1numpy1.19python3.9.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.1cudnn8numpy1.19python3.9.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_version11.1numpy1.19python3.9.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1cudnn8numpy1.19python3.9.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.1numpy1.19python3.9.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.7.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_version11.2numpy1.18python3.7.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.7.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2numpy1.18python3.7.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_version11.2numpy1.18python3.7.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2numpy1.18python3.7.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.7.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_version11.2numpy1.18python3.7.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.7.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2numpy1.18python3.7.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.8.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_version11.2numpy1.18python3.8.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.8.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2numpy1.18python3.8.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_version11.2numpy1.18python3.8.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2numpy1.18python3.8.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.8.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_version11.2numpy1.18python3.8.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.8.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2numpy1.18python3.8.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cudnn8numpy1.19python3.9.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_version11.2numpy1.19python3.9.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2cudnn8numpy1.19python3.9.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2numpy1.19python3.9.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_version11.2numpy1.19python3.9.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2numpy1.19python3.9.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_version11.2cudnn8numpy1.19python3.9.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_version11.2numpy1.19python3.9.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2cudnn8numpy1.19python3.9.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_version11.2numpy1.19python3.9.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.7.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_versionNonenumpy1.18python3.7.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.7.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonenumpy1.18python3.7.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.7.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_versionNonenumpy1.18python3.7.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.7.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonenumpy1.18python3.7.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.7.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_versionNonenumpy1.18python3.7.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.7.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonenumpy1.18python3.7.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.8.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_versionNonenumpy1.18python3.8.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.8.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonenumpy1.18python3.8.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.8.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_versionNonenumpy1.18python3.8.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.8.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonenumpy1.18python3.8.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.8.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_versionNonenumpy1.18python3.8.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.8.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonenumpy1.18python3.8.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.19python3.9.____cpythonpytorch1.8.0</td>
+              <td>linux_64_cuda_compiler_versionNonenumpy1.19python3.9.____cpythonpytorch1.8.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.19python3.9.____cpythonpytorch1.8.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonenumpy1.19python3.9.____cpythonpytorch1.8.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.19python3.9.____cpythonpytorch1.9.0</td>
+              <td>linux_64_cuda_compiler_versionNonenumpy1.19python3.9.____cpythonpytorch1.9.0</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.19python3.9.____cpythonpytorch1.9.0" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonenumpy1.19python3.9.____cpythonpytorch1.9.0" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.19python3.9.____cpythonpytorch1.9.1</td>
+              <td>linux_64_cuda_compiler_versionNonenumpy1.19python3.9.____cpythonpytorch1.9.1</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=13750&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.19python3.9.____cpythonpytorch1.9.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/torch-scatter-feedstock?branchName=master&jobName=linux&configuration=linux_64_cuda_compiler_versionNonenumpy1.19python3.9.____cpythonpytorch1.9.1" alt="variant">
                 </a>
               </td>
             </tr><tr>
