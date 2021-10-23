@@ -32,9 +32,9 @@ requirements:
     - pip
     - pytest-runner
     - python
-    - pytorch
-    - pytorch-gpu  # [cuda_compiler_version != "None"]
-    - pytorch-cpu  # [cuda_compiler_version == "None"]
+    - pytorch >=1.8
+    - pytorch-gpu >=1.8  # [cuda_compiler_version != "None"]
+    - pytorch-cpu >=1.8  # [cuda_compiler_version == "None"]
     - numpy
     - tqdm
     - scipy
