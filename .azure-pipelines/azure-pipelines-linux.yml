@@ -12,20 +12,12 @@ jobs:
         CONFIG: linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.7.____cpythonpytorch1.10.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.0
-      linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.0
       linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.7.____cpythonpytorch1.9.1:
         CONFIG: linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.7.____cpythonpytorch1.9.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.0
       linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.8.____cpythonpytorch1.10.0:
         CONFIG: linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.8.____cpythonpytorch1.10.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.0
-      linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.0
       linux_64_cuda_compiler_version11.0cudnn8numpy1.18python3.8.____cpythonpytorch1.9.1:
@@ -36,20 +28,12 @@ jobs:
         CONFIG: linux_64_cuda_compiler_version11.0cudnn8numpy1.19python3.9.____cpythonpytorch1.10.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.0
-      linux_64_cuda_compiler_version11.0cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_version11.0cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.0
       linux_64_cuda_compiler_version11.0cudnn8numpy1.19python3.9.____cpythonpytorch1.9.1:
         CONFIG: linux_64_cuda_compiler_version11.0cudnn8numpy1.19python3.9.____cpythonpytorch1.9.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.0
       linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.7.____cpythonpytorch1.10.0:
         CONFIG: linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.7.____cpythonpytorch1.10.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.1
-      linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.1
       linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.7.____cpythonpytorch1.9.1:
@@ -60,20 +44,12 @@ jobs:
         CONFIG: linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.8.____cpythonpytorch1.10.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.1
-      linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.1
       linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.8.____cpythonpytorch1.9.1:
         CONFIG: linux_64_cuda_compiler_version11.1cudnn8numpy1.18python3.8.____cpythonpytorch1.9.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.1
       linux_64_cuda_compiler_version11.1cudnn8numpy1.19python3.9.____cpythonpytorch1.10.0:
         CONFIG: linux_64_cuda_compiler_version11.1cudnn8numpy1.19python3.9.____cpythonpytorch1.10.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.1
-      linux_64_cuda_compiler_version11.1cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_version11.1cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.1
       linux_64_cuda_compiler_version11.1cudnn8numpy1.19python3.9.____cpythonpytorch1.9.1:
@@ -84,20 +60,12 @@ jobs:
         CONFIG: linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.7.____cpythonpytorch1.10.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.2
-      linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.7.____cpythonpytorch1.9.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.2
       linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.7.____cpythonpytorch1.9.1:
         CONFIG: linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.7.____cpythonpytorch1.9.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.2
       linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.8.____cpythonpytorch1.10.0:
         CONFIG: linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.8.____cpythonpytorch1.10.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.2
-      linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.8.____cpythonpytorch1.9.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.2
       linux_64_cuda_compiler_version11.2cudnn8numpy1.18python3.8.____cpythonpytorch1.9.1:
@@ -108,20 +76,12 @@ jobs:
         CONFIG: linux_64_cuda_compiler_version11.2cudnn8numpy1.19python3.9.____cpythonpytorch1.10.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.2
-      linux_64_cuda_compiler_version11.2cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_version11.2cudnn8numpy1.19python3.9.____cpythonpytorch1.9.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.2
       linux_64_cuda_compiler_version11.2cudnn8numpy1.19python3.9.____cpythonpytorch1.9.1:
         CONFIG: linux_64_cuda_compiler_version11.2cudnn8numpy1.19python3.9.____cpythonpytorch1.9.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cuda:11.2
       linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.7.____cpythonpytorch1.10.0:
         CONFIG: linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.7.____cpythonpytorch1.10.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.7.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.7.____cpythonpytorch1.9.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.7.____cpythonpytorch1.9.1:
@@ -132,20 +92,12 @@ jobs:
         CONFIG: linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.8.____cpythonpytorch1.10.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.8.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.8.____cpythonpytorch1.9.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.8.____cpythonpytorch1.9.1:
         CONFIG: linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.18python3.8.____cpythonpytorch1.9.1
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.19python3.9.____cpythonpytorch1.10.0:
         CONFIG: linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.19python3.9.____cpythonpytorch1.10.0
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.19python3.9.____cpythonpytorch1.9.0:
-        CONFIG: linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.19python3.9.____cpythonpytorch1.9.0
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_cuda_compiler_versionNonecudnnundefinednumpy1.19python3.9.____cpythonpytorch1.9.1:
