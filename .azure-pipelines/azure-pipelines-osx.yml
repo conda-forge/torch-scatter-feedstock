@@ -11,17 +11,26 @@ jobs:
       osx_64_numpy1.18python3.7.____cpythonpytorch1.10.0:
         CONFIG: osx_64_numpy1.18python3.7.____cpythonpytorch1.10.0
         UPLOAD_PACKAGES: 'True'
+      osx_64_numpy1.18python3.7.____cpythonpytorch1.9.0:
+        CONFIG: osx_64_numpy1.18python3.7.____cpythonpytorch1.9.0
+        UPLOAD_PACKAGES: 'True'
       osx_64_numpy1.18python3.7.____cpythonpytorch1.9.1:
         CONFIG: osx_64_numpy1.18python3.7.____cpythonpytorch1.9.1
         UPLOAD_PACKAGES: 'True'
       osx_64_numpy1.18python3.8.____cpythonpytorch1.10.0:
         CONFIG: osx_64_numpy1.18python3.8.____cpythonpytorch1.10.0
         UPLOAD_PACKAGES: 'True'
+      osx_64_numpy1.18python3.8.____cpythonpytorch1.9.0:
+        CONFIG: osx_64_numpy1.18python3.8.____cpythonpytorch1.9.0
+        UPLOAD_PACKAGES: 'True'
       osx_64_numpy1.18python3.8.____cpythonpytorch1.9.1:
         CONFIG: osx_64_numpy1.18python3.8.____cpythonpytorch1.9.1
         UPLOAD_PACKAGES: 'True'
       osx_64_numpy1.19python3.9.____cpythonpytorch1.10.0:
         CONFIG: osx_64_numpy1.19python3.9.____cpythonpytorch1.10.0
+        UPLOAD_PACKAGES: 'True'
+      osx_64_numpy1.19python3.9.____cpythonpytorch1.9.0:
+        CONFIG: osx_64_numpy1.19python3.9.____cpythonpytorch1.9.0
         UPLOAD_PACKAGES: 'True'
       osx_64_numpy1.19python3.9.____cpythonpytorch1.9.1:
         CONFIG: osx_64_numpy1.19python3.9.____cpythonpytorch1.9.1
