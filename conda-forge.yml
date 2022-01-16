@@ -2,3 +2,5 @@ conda_forge_output_validation: true
 # Ensure compatibility with pytorch. They need cos7
 os_version:
   linux_64: cos7
+bot:
+  automerge: true
