@@ -4,3 +4,6 @@ os_version:
   linux_64: cos7
 bot:
   automerge: true
+github:
+  branch_name: main
+  tooling_branch_name: main
