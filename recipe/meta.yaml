@@ -1,4 +1,3 @@
-{% set name = "torch-scatter" %}
 {% set version = "2.1.0" %}
 # see github.com/conda-forge/conda-forge.github.io/issues/1059 for naming discussion
 {% set torch_proc_type = "cuda" if cuda_compiler_version != "None" else "cpu" %}
@@ -6,22 +5,24 @@
 
 
 package:
-  name: {{ name|lower }}
+  name: torch-scatter
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/torch_scatter-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/t/torch-scatter/torch_scatter-{{ version }}.tar.gz
   sha256: 3a7124c2a033552febbdc72407f7d4d8cb6dce465720e84ab831512e81c1d208
 
 build:
-  number: 0
+  number: 1
   rpaths:
     - lib/
     - {{ SP_DIR }}/torch/lib
   missing_dso_whitelist:
     - '*/libcuda.*'  # [linux64 or ppc64le]
   skip: true  # [win]
-  skip: true  # [cuda_compiler_version == "10.2"]
+  # as of pytorch 1.13, conda-forge only builds for CUDA 11.2+, see
+  # https://github.com/conda-forge/conda-forge-pinning-feedstock/issues/3491
+  skip: true  # [cuda_compiler_version in ("10.2", "11.0", "11.1")]
 
 requirements:
   build:
@@ -54,15 +55,8 @@ requirements:
     - {{ pin_compatible('cudnn') }}  # [cuda_compiler_version != "None"]
     - {{ pin_compatible('numpy') }}
   run_constrained:
-    # 2022/02/05 hmaarrfk
-    # While conda packaging seems to allow us to specify
-    # constraints on the same package in different lines
-    # the resulting package doesn't have the ability to
-    # be specified in multiples lines
-    # This makes it tricky to use run_exports
-    # we add the GPU constraint in the run_constrained
-    # to allow us to have "two" constraints on the
-    # running package
+    # additional run constraint to the one from the (version-only) run_export;
+    # constraining the CPU builds to CPU pytorch isn't 100% necessary, but cleaner
     - pytorch =*={{ torch_proc_type }}*
 
 test:
