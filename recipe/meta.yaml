@@ -31,6 +31,7 @@ requirements:
     - {{ compiler('cuda') }}  # [cuda_compiler_version != "None"]
     # https://conda-forge.org/docs/maintainer/knowledge_base.html?highlight=cuda#using-centos-7
     - sysroot_linux-64 2.17  # [linux64]
+    - setuptools
   host:
     - cudnn                           # [cuda_compiler_version != "None"]
     - nccl                            # [cuda_compiler_version != "None"]
