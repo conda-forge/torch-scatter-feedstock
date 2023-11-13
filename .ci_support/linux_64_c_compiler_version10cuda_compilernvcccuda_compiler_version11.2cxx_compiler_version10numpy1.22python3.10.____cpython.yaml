@@ -23,7 +23,7 @@ docker_image:
 nccl:
 - '2'
 numpy:
-- '1.21'
+- '1.22'
 pin_run_as_build:
   python:
     min_pin: x.x
@@ -31,13 +31,13 @@ pin_run_as_build:
 python:
 - 3.10.* *_cpython
 pytorch:
-- '2.0'
+- '2.1'
 target_platform:
 - linux-64
 zip_keys:
 - - c_compiler_version
   - cxx_compiler_version
-  - cudnn
+  - cuda_compiler
   - cuda_compiler_version
   - cdt_name
   - docker_image
