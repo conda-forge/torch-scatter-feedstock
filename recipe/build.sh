@@ -4,8 +4,6 @@ else
   # Borrowed from PyTorch
   # ref: https://github.com/conda-forge/pytorch-cpu-feedstock/blob/7c7a57b7515eaeda67d3879b56b68466f38f0b0d/recipe/build_pytorch.sh#L129-L157
   export TORCH_CUDA_ARCH_LIST="5.0;6.0;6.1;7.0;7.5;8.0;8.6"
-  export CUDA_ARCH_LIST="sm_50,sm_60,sm_70,sm_75,sm_80"
-  export CUDAARCHS="50-real;60-real;70-real;75-real;80-real"
   if [[ "$cuda_compiler_version" == "11.2*" ]]; then
     export TORCH_CUDA_ARCH_LIST="3.5;$TORCH_CUDA_ARCH_LIST"
   elif [[ "$cuda_compiler_version" == "11.8" ]]; then
