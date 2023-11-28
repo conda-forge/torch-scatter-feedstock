@@ -28,6 +28,8 @@ else
       exit 1
   fi
   export FORCE_CUDA=1
+  export TORCH_CUDA_ARCH_LIST="${TORCH_CUDA_ARCH_LIST}+PTX"
+  echo "TORCH_CUDA_ARCH_LIST=${TORCH_CUDA_ARCH_LIST}"
 fi
 
 export TORCHVISION_INCLUDE="${PREFIX}/include/"
