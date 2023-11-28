@@ -1,7 +1,7 @@
 if [[ "$cuda_compiler_version" == "None" ]]; then
   export FORCE_CUDA=0
 else
-  export TORCH_CUDA_ARCH_LIST="3.5;5.0+PTX"
+  export TORCH_CUDA_ARCH_LIST="5.0;6.0;6.1;7.0;7.5;8.0;8.6"
   # Duplicate lists because of https://bitbucket.org/icl/magma/pull-requests/32
   export CUDA_ARCH_LIST="sm_50,sm_60,sm_70,sm_75,sm_80"
   export CUDAARCHS="50-real;60-real;70-real;75-real;80-real"
