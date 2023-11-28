@@ -18,7 +18,7 @@ else
   elif [[ "$cuda_compiler_version" == "11.2*" ]]; then
     export CUDA_ARCH_LIST="${CUDA_ARCH_LIST},sm_35"
     export CUDAARCHS="${CUDAARCHS};35-virtual;80-virtual"
-    export TORCH_CUDA_ARCH_LIST="$TORCH_CUDA_ARCH_LIST;6.0;6.1;7.0;7.5;8.0;8.6"
+    export TORCH_CUDA_ARCH_LIST="3.5;$TORCH_CUDA_ARCH_LIST"
   elif [[ "$cuda_compiler_version" == "11.8" ]]; then
     export CUDA_ARCH_LIST="${CUDA_ARCH_LIST},sm_35,sm_89,sm_90"
     export CUDAARCHS="${CUDAARCHS};35-virtual;89-real;90"
