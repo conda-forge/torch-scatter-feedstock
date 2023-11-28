@@ -6,17 +6,7 @@ else
   export TORCH_CUDA_ARCH_LIST="5.0;6.0;6.1;7.0;7.5;8.0;8.6"
   export CUDA_ARCH_LIST="sm_50,sm_60,sm_70,sm_75,sm_80"
   export CUDAARCHS="50-real;60-real;70-real;75-real;80-real"
-  if [[ ${cuda_compiler_version} == 9.0* ]]; then
-      export TORCH_CUDA_ARCH_LIST="$TORCH_CUDA_ARCH_LIST;6.0;7.0"
-  elif [[ ${cuda_compiler_version} == 9.2* ]]; then
-      export TORCH_CUDA_ARCH_LIST="$TORCH_CUDA_ARCH_LIST;6.0;6.1;7.0"
-  elif [[ ${cuda_compiler_version} == 10.* ]]; then
-      export TORCH_CUDA_ARCH_LIST="$TORCH_CUDA_ARCH_LIST;6.0;6.1;7.0;7.5"
-  elif [[ ${cuda_compiler_version} == 11.0* ]]; then
-      export TORCH_CUDA_ARCH_LIST="$TORCH_CUDA_ARCH_LIST;6.0;6.1;7.0;7.5;8.0"
-  elif [[ ${cuda_compiler_version} == 11.1* ]]; then
-      export TORCH_CUDA_ARCH_LIST="$TORCH_CUDA_ARCH_LIST;6.0;6.1;7.0;7.5;8.0;8.6"
-  elif [[ "$cuda_compiler_version" == "11.2*" ]]; then
+  if [[ "$cuda_compiler_version" == "11.2*" ]]; then
     export TORCH_CUDA_ARCH_LIST="3.5;$TORCH_CUDA_ARCH_LIST"
   elif [[ "$cuda_compiler_version" == "11.8" ]]; then
     export TORCH_CUDA_ARCH_LIST="3.5;$TORCH_CUDA_ARCH_LIST;8.9"
