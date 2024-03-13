@@ -30,7 +30,12 @@ requirements:
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}  # [cuda_compiler_version != "None"]
     # https://conda-forge.org/docs/maintainer/knowledge_base.html?highlight=cuda#using-centos-7
-    - sysroot_linux-64 2.17  # [linux64]
+    - sysroot_linux-64 2.17  # [linux64]    
+    - libcublas-dev                             # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcufft-dev                              # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcurand-dev                             # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcusolver-dev                           # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcusparse-dev                           # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
   host:
     - cudnn                           # [cuda_compiler_version != "None"]
     - nccl                            # [cuda_compiler_version != "None"]
@@ -50,6 +55,12 @@ requirements:
     - googledrivedownloader
     - jinja2
     - pyparsing
+    - cuda-version {{ cuda_compiler_version }}  # [cuda_compiler_version != "None"]
+    - libcublas-dev                             # [(cuda_compiler_version or "None").startswith("12")]
+    - libcufft-dev                              # [(cuda_compiler_version or "None").startswith("12")]
+    - libcurand-dev                             # [(cuda_compiler_version or "None").startswith("12")]
+    - libcusolver-dev                           # [(cuda_compiler_version or "None").startswith("12")]
+    - libcusparse-dev                           # [(cuda_compiler_version or "None").startswith("12")]
   run:
     - python
     - {{ pin_compatible('cudnn') }}  # [cuda_compiler_version != "None"]
