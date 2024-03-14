@@ -55,6 +55,9 @@ requirements:
     - googledrivedownloader
     - jinja2
     - pyparsing
+    # Workaround to add `libxcrypt` for old Pythons
+    # xref: https://github.com/conda-forge/python-feedstock/pull/668#discussion_r1523986176
+    - libxcrypt  # [linux and py<39]
     - cuda-version {{ cuda_compiler_version }}  # [cuda_compiler_version != "None"]
     - libcublas-dev                             # [(cuda_compiler_version or "None").startswith("12")]
     - libcufft-dev                              # [(cuda_compiler_version or "None").startswith("12")]
