@@ -86,7 +86,7 @@ cuda_compiler_version:         # [(linux or win64) and os.environ.get("CF_CUDA_E
   - 12.0                       # [(linux or win64) and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 c_compiler_version:            # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
-  - 12                         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
+  - 11                         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
 
 cxx_compiler_version:          # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
   - 12                         # [linux and os.environ.get("CF_CUDA_ENABLED", "False") == "True"]
