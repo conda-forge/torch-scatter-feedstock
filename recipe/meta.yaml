@@ -16,7 +16,8 @@ build:
   number: 4
   rpaths:
     - lib/
-    - {{ SP_DIR }}/torch/lib
+  skip: true  # [linux and py<39 and cuda_compiler_version != "None"]
+  rpaths:
   missing_dso_whitelist:
     - '*/libcuda.*'  # [linux64 or ppc64le]
   skip: true  # [win]
