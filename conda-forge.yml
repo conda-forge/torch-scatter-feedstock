@@ -1,11 +1,13 @@
-conda_forge_output_validation: true
-# Ensure compatibility with pytorch. They need cos7
-os_version:
-  linux_64: cos7
+azure:
+  free_disk_space: true
 bot:
   automerge: true
+conda_build:
+  pkg_format: '2'
+conda_forge_output_validation: true
 github:
   branch_name: main
   tooling_branch_name: main
-conda_build:
-  pkg_format: '2'
+# Ensure compatibility with pytorch. They need cos7
+os_version:
+  linux_64: cos7

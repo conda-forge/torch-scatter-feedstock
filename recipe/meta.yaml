@@ -13,10 +13,11 @@ source:
   sha256: 59b6fad2c04f58b4ea46bb56e839edfd421faaa849d5e32ab1290975b9ef1656
 
 build:
-  number: 3
+  number: 4
   rpaths:
     - lib/
-    - {{ SP_DIR }}/torch/lib
+  skip: true  # [linux and py<39 and cuda_compiler_version != "None"]
+  rpaths:
   missing_dso_whitelist:
     - '*/libcuda.*'  # [linux64 or ppc64le]
   skip: true  # [win]
@@ -30,7 +31,12 @@ requirements:
     - {{ compiler('cxx') }}
     - {{ compiler('cuda') }}  # [cuda_compiler_version != "None"]
     # https://conda-forge.org/docs/maintainer/knowledge_base.html?highlight=cuda#using-centos-7
-    - sysroot_linux-64 2.17  # [linux64]
+    - sysroot_{{ target_platform }} 2.17  # [linux]
+    - libcublas-dev                             # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcufft-dev                              # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcurand-dev                             # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcusolver-dev                           # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcusparse-dev                           # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
   host:
     - cudnn                           # [cuda_compiler_version != "None"]
     - nccl                            # [cuda_compiler_version != "None"]
@@ -50,6 +56,12 @@ requirements:
     - googledrivedownloader
     - jinja2
     - pyparsing
+    - cuda-version {{ cuda_compiler_version }}  # [cuda_compiler_version != "None"]
+    - libcublas-dev                             # [(cuda_compiler_version or "None").startswith("12")]
+    - libcufft-dev                              # [(cuda_compiler_version or "None").startswith("12")]
+    - libcurand-dev                             # [(cuda_compiler_version or "None").startswith("12")]
+    - libcusolver-dev                           # [(cuda_compiler_version or "None").startswith("12")]
+    - libcusparse-dev                           # [(cuda_compiler_version or "None").startswith("12")]
   run:
     - python
     - {{ pin_compatible('cudnn') }}  # [cuda_compiler_version != "None"]
