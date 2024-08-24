@@ -2,8 +2,6 @@
 # see github.com/conda-forge/conda-forge.github.io/issues/1059 for naming discussion
 {% set torch_proc_type = "cuda" if cuda_compiler_version != "None" else "cpu" %}
 
-
-
 package:
   name: torch-scatter
   version: {{ version }}
@@ -13,7 +11,7 @@ source:
   sha256: 59b6fad2c04f58b4ea46bb56e839edfd421faaa849d5e32ab1290975b9ef1656
 
 build:
-  number: 6
+  number: 7
   rpaths:
     - lib/
   skip: true  # [linux and py<39 and cuda_compiler_version != "None"]
@@ -21,29 +19,25 @@ build:
   missing_dso_whitelist:
     - '*/libcuda.*'  # [linux64 or ppc64le]
   skip: true  # [win]
-  # as of pytorch 1.13, conda-forge only builds for CUDA 11.2+, see
-  # https://github.com/conda-forge/conda-forge-pinning-feedstock/issues/3491
-  skip: true  # [cuda_compiler_version in ("10.2", "11.0", "11.1")]
 
 requirements:
   build:
-    - {{ compiler('c') }}
     - {{ stdlib("c") }}
-    - {{ compiler('cxx') }}
-    - {{ compiler('cuda') }}  # [cuda_compiler_version != "None"]
-    # https://conda-forge.org/docs/maintainer/knowledge_base.html?highlight=cuda#using-centos-7
-    - sysroot_{{ target_platform }} 2.17  # [linux]
-    - libcublas-dev                             # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcufft-dev                              # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcurand-dev                             # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcusolver-dev                           # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcusparse-dev                           # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - {{ compiler("c") }}
+    - {{ compiler("cxx") }}
+    - {{ compiler("cuda") }}          # [cuda_compiler_version != "None"]
+    - libcublas-dev                   # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcufft-dev                    # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcurand-dev                   # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcusolver-dev                 # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcusparse-dev                 # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
   host:
     - cudnn                           # [cuda_compiler_version != "None"]
     - nccl                            # [cuda_compiler_version != "None"]
     - pip
     - pytest-runner
     - python
+    - setuptools
     - pytorch
     - pytorch =*={{ torch_proc_type }}*
     - numpy
