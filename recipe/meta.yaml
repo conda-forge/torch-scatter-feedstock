@@ -30,12 +30,12 @@ requirements:
     - {{ stdlib("c") }}
     - {{ compiler("c") }}
     - {{ compiler("cxx") }}
-    - {{ compiler("cuda") }}  # [cuda_compiler_version != "None"]
-    - libcublas-dev                             # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcufft-dev                              # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcurand-dev                             # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcusolver-dev                           # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcusparse-dev                           # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - {{ compiler("cuda") }}          # [cuda_compiler_version != "None"]
+    - libcublas-dev                   # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcufft-dev                    # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcurand-dev                   # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcusolver-dev                 # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcusparse-dev                 # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
   host:
     - cudnn                           # [cuda_compiler_version != "None"]
     - nccl                            # [cuda_compiler_version != "None"]
