@@ -37,6 +37,7 @@ requirements:
     - pip
     - pytest-runner
     - python
+    - setuptools
     - pytorch
     - pytorch =*={{ torch_proc_type }}*
     - numpy
