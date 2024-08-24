@@ -27,10 +27,10 @@ build:
 
 requirements:
   build:
-    - {{ compiler('c') }}
     - {{ stdlib("c") }}
-    - {{ compiler('cxx') }}
-    - {{ compiler('cuda') }}  # [cuda_compiler_version != "None"]
+    - {{ compiler("c') }}
+    - {{ compiler('cxx") }}
+    - {{ compiler("cuda") }}  # [cuda_compiler_version != "None"]
     - libcublas-dev                             # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
     - libcufft-dev                              # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
     - libcurand-dev                             # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
