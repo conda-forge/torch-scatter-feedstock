@@ -9,7 +9,7 @@ c_stdlib_version:
 cdt_name:
 - cos7
 channel_sources:
-- conda-forge/label/numpy_rc,conda-forge
+- conda-forge
 channel_targets:
 - conda-forge main
 cuda_compiler:
@@ -35,7 +35,7 @@ pin_run_as_build:
 python:
 - 3.9.* *_cpython
 pytorch:
-- '2.3'
+- '2.4'
 target_platform:
 - linux-64
 zip_keys:
