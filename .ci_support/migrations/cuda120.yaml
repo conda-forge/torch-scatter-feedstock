@@ -2,10 +2,6 @@ migrator_ts: 1682985063
 __migrator:
   kind:
     version
-  # Vendor CUDA 12 migrator to use GCC 11.
-  # This is needed to workaround a pybind + GCC 12 + nvcc 12 bug
-  # xref: https://github.com/pybind/pybind11/issues/4606
-  use_local: true
   migration_number:
     3
   build_number:
