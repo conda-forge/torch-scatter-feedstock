@@ -17,7 +17,7 @@ cuda_compiler:
 cuda_compiler_version:
 - '11.8'
 cudnn:
-- '8'
+- '9'
 cxx_compiler:
 - gxx
 cxx_compiler_version:
@@ -33,7 +33,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.10.* *_cpython
+- 3.9.* *_cpython
 pytorch:
 - '2.4'
 target_platform:
