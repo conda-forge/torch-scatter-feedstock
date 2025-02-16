@@ -7,18 +7,19 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/t/torch-scatter/torch_scatter-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/t/torch-scatter/torch_scatter-{{ version }}.tar.gz
   sha256: 59b6fad2c04f58b4ea46bb56e839edfd421faaa849d5e32ab1290975b9ef1656
 
 build:
-  number: 10
+  number: 11
   rpaths:
     - lib/
-  skip: true  # [linux and py<39 and cuda_compiler_version != "None"]
   rpaths:
   missing_dso_whitelist:
     - '*/libcuda.*'  # [linux64 or ppc64le]
   skip: true  # [win]
+  # pytorch in conda-forge does not support CUDA 11.8 as of v2.5
+  skip: true  # [cuda_compiler_version == "11.8"]
 
 requirements:
   build:

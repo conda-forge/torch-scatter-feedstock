@@ -10,6 +10,8 @@ else
     export TORCH_CUDA_ARCH_LIST="3.5;$TORCH_CUDA_ARCH_LIST;8.9"
   elif [[ "$cuda_compiler_version" == "12.0" ]]; then
     export TORCH_CUDA_ARCH_LIST="$TORCH_CUDA_ARCH_LIST;8.9;9.0"
+  elif [[ "$cuda_compiler_version" == "12.6" ]]; then
+    export TORCH_CUDA_ARCH_LIST="$TORCH_CUDA_ARCH_LIST;8.9;9.0"
   else
       echo "unsupported cuda version. edit build.sh"
       exit 1
