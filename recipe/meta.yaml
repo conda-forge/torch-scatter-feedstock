@@ -35,6 +35,8 @@ requirements:
     - libcurand-dev                   # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
     - libcusolver-dev                 # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
     - libcusparse-dev                 # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - pytorch                                # [build_platform != target_platform]
+    - pytorch =*={{ torch_proc_type }}*      # [build_platform != target_platform]
   host:
     - cudnn                           # [cuda_compiler_version != "None"]
     - nccl                            # [cuda_compiler_version != "None"]
