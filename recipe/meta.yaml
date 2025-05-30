@@ -11,7 +11,7 @@ source:
   sha256: 59b6fad2c04f58b4ea46bb56e839edfd421faaa849d5e32ab1290975b9ef1656
 
 build:
-  number: 12
+  number: 13
   rpaths:
     - lib/
   rpaths:
@@ -36,7 +36,7 @@ requirements:
     - libcusolver-dev                 # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
     - libcusparse-dev                 # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
     - pytorch                                # [build_platform != target_platform]
-    - pytorch =*={{ torch_proc_type }}*      # [build_platform != target_platform]
+    - pytorch * {{ torch_proc_type }}*       # [build_platform != target_platform]
   host:
     - cudnn                           # [cuda_compiler_version != "None"]
     - nccl                            # [cuda_compiler_version != "None"]
@@ -45,7 +45,7 @@ requirements:
     - python
     - setuptools
     - pytorch
-    - pytorch =*={{ torch_proc_type }}*
+    - pytorch * {{ torch_proc_type }}*
     - numpy
     - tqdm
     - scipy
@@ -69,7 +69,7 @@ requirements:
   run_constrained:
     # additional run constraint to the one from the (version-only) run_export;
     # constraining the CPU builds to CPU pytorch isn't 100% necessary, but cleaner
-    - pytorch =*={{ torch_proc_type }}*
+    - pytorch * {{ torch_proc_type }}*
 
 test:
   imports:
