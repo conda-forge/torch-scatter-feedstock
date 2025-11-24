@@ -15,7 +15,7 @@ cuda_compiler:
 cuda_compiler_version:
 - None
 cudnn:
-- '9'
+- None
 cxx_compiler:
 - gxx
 cxx_compiler_version:
@@ -33,7 +33,7 @@ pin_run_as_build:
 python:
 - 3.13.* *_cp313
 pytorch:
-- '2.7'
+- '2.8'
 target_platform:
 - linux-64
 zip_keys:
