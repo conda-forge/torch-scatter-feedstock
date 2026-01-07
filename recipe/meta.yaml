@@ -11,7 +11,7 @@ source:
   sha256: 59b6fad2c04f58b4ea46bb56e839edfd421faaa849d5e32ab1290975b9ef1656
 
 build:
-  number: 16
+  number: 17
   string: cuda{{ cuda_compiler_version | replace('.', '') }}_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}  # [cuda_compiler_version != "None"]
   string: cpu_h{{ PKG_HASH }}_{{ PKG_BUILDNUM }}                                                 # [cuda_compiler_version == "None"]
   rpaths:
@@ -20,8 +20,6 @@ build:
   missing_dso_whitelist:
     - '*/libcuda.*'  # [linux64 or ppc64le]
   skip: true  # [win]
-  # pytorch in conda-forge does not support CUDA 11.8 as of v2.5
-  skip: true  # [cuda_compiler_version == "11.8"]
 
 requirements:
   build:
@@ -32,16 +30,14 @@ requirements:
     - {{ compiler("c") }}
     - {{ compiler("cxx") }}
     - {{ compiler("cuda") }}          # [cuda_compiler_version != "None"]
-    - libcublas-dev                   # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcufft-dev                    # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcurand-dev                   # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcusolver-dev                 # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
-    - libcusparse-dev                 # [build_platform != target_platform and (cuda_compiler_version or "None").startswith("12")]
+    - libcublas-dev                   # [build_platform != target_platform and cuda_compiler_version != "None"]
+    - libcufft-dev                    # [build_platform != target_platform and cuda_compiler_version != "None"]
+    - libcurand-dev                   # [build_platform != target_platform and cuda_compiler_version != "None"]
+    - libcusolver-dev                 # [build_platform != target_platform and cuda_compiler_version != "None"]
+    - libcusparse-dev                 # [build_platform != target_platform and cuda_compiler_version != "None"]
     - pytorch                                # [build_platform != target_platform]
     - pytorch * {{ torch_proc_type }}*       # [build_platform != target_platform]
   host:
-    - cudnn                           # [cuda_compiler_version != "None"]
-    - nccl                            # [cuda_compiler_version != "None"]
     - pip
     - pytest-runner
     - python
@@ -60,14 +56,15 @@ requirements:
     - jinja2
     - pyparsing
     - cuda-version {{ cuda_compiler_version }}  # [cuda_compiler_version != "None"]
-    - libcublas-dev                             # [(cuda_compiler_version or "None").startswith("12")]
-    - libcufft-dev                              # [(cuda_compiler_version or "None").startswith("12")]
-    - libcurand-dev                             # [(cuda_compiler_version or "None").startswith("12")]
-    - libcusolver-dev                           # [(cuda_compiler_version or "None").startswith("12")]
-    - libcusparse-dev                           # [(cuda_compiler_version or "None").startswith("12")]
+    - libcublas-dev                             # [cuda_compiler_version != "None"]
+    - libcudnn-dev                              # [cuda_compiler_version != "None"]
+    - libcufft-dev                              # [cuda_compiler_version != "None"]
+    - libcurand-dev                             # [cuda_compiler_version != "None"]
+    - libcusolver-dev                           # [cuda_compiler_version != "None"]
+    - libcusparse-dev                           # [cuda_compiler_version != "None"]
+    - nccl                                      # [cuda_compiler_version != "None"]
   run:
     - python
-    - {{ pin_compatible('cudnn') }}  # [cuda_compiler_version != "None"]
   run_constrained:
     # additional run constraint to the one from the (version-only) run_export;
     # constraining the CPU builds to CPU pytorch isn't 100% necessary, but cleaner
